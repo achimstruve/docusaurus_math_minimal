@@ -17,6 +17,11 @@ module.exports = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
+        pages: {
+          path: "src/pages",
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+        },
       },
     ],
   ],
